@@ -31,6 +31,9 @@ in
     nix-direnv
     direnv 
     yazi
+    waybar
+    alacritty
+    wl-clipboard
   ];
 
   programs.home-manager.enable = true;
@@ -102,5 +105,7 @@ in
 
   programs.fish = fishConfig;
 
+
+  
 
  }
