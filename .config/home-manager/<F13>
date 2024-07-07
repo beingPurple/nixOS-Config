@@ -1,0 +1,88 @@
+{ pkgs }:
+
+let
+  bobthefishTheme = pkgs.fetchFromGitHub {
+    owner = "oh-my-fish";
+    repo = "theme-bobthefish";
+    rev = "332f23abd5b111495f6d6fef3accf6b8d6aa6130"; # Use a recent commit hash
+    sha256 = "sha256-VKNuFWdNKsN62fqhvIWZaGXiZrGn3w3r4g9WrMN3j1E="; # Use the correct hash
+  };
+in
+{
+  enable = true;
+  shellAliases = import ./aliases.nix;
+  interactiveShellInit = ''
+    echo "Fish shell initiated!🐟 "
+    set_colors
+  '';
+  plugins = [
+    { name = "tide"; src = pkgs.fishPlugins.tide.src; }
+    { name = "bobthefish"; src = bobthefishTheme; }
+  ];
+  functions = {
+    set_colors = {
+      body = ''
+        # Background and foreground
+        set -g theme_color_scheme user
+        set -g fish_color_normal EA549F
+        set -g fish_color_background 151326
+
+        # Directory colors
+        set -g fish_color_cwd 4EC9B0
+        set -g fish_color_cwd_root E92888
+
+        # Command colors
+        set -g fish_color_command 579BD5
+        set -g fish_color_error EB2A88
+        set -g fish_color_param 9CDCFE
+        set -g fish_color_quote FFCB00
+        set -g fish_color_redirection 2BC4E2
+        set -g fish_color_end 975EAB
+
+        # Completion colors
+        set -g fish_color_search_match --background=1A172E
+        set -g fish_color_selection --background=FFFFFF
+
+        # Git colors
+        set -g fish_color_git_clean 4EC9B0
+        set -g fish_color_git_staged FFDB37
+        set -g fish_color_git_dirty EB2A88
+
+        # Prompt colors
+        set -g fish_color_user 714896
+        set -g fish_color_host 00B6D6
+
+        # Set bobthefish specific colors
+        set -g theme_color_scheme user
+        set -g theme_date_format "+%H:%M:%S"
+        set -g theme_date_timezone America/New_York
+        set -g theme_powerline_fonts yes
+        set -g theme_nerd_fonts yes
+        set -g theme_display_git_ahead_verbose yes
+        set -g theme_display_git_dirty_verbose yes
+        set -g theme_show_exit_status yes
+        set -g theme_git_worktree_support yes
+        set -g theme_display_vagrant yes
+        set -g theme_display_docker_machine yes
+        set -g theme_display_k8s_context yes
+        set -g theme_display_hg yes
+        set -g theme_display_virtualenv yes
+        set -g theme_display_ruby yes
+        set -g theme_display_user ssh
+        set -g theme_display_hostname ssh
+        set -g theme_display_vi no
+        set -g theme_avoid_ambiguous_glyphs yes
+        set -g theme_display_date yes
+        set -g theme_display_cmd_duration yes
+        set -g theme_title_display_process yes
+        set -g theme_title_display_path yes
+        set -g theme_title_use_abbreviated_path yes
+        set -g theme_date_format "+%a %H:%M"
+        set -g theme_color_scheme dark
+        set -g fish_prompt_pwd_dir_length 0
+        set -g theme_project_dir_length 1
+        set -g theme_newline_cursor yes
+      '';
+    };
+  };
+}

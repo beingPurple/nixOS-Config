@@ -1,0 +1,11 @@
+2024/07/07-16:21:06.896 10d59 Reusing MANIFEST /home/noelle/.config/discord/Local Storage/leveldb/MANIFEST-000001
+2024/07/07-16:21:06.897 10d59 Recovering log #3
+2024/07/07-16:21:06.912 10d59 Level-0 table #3: started
+2024/07/07-16:21:06.937 10d59 Level-0 table #3: 3168880 bytes OK
+2024/07/07-16:21:06.938 10d59 Recovering log #4
+2024/07/07-16:21:06.938 10d59 Reusing old log /home/noelle/.config/discord/Local Storage/leveldb/000004.log 
+2024/07/07-16:21:06.945 10d59 Delete type=2 #5
+2024/07/07-16:21:06.945 10d59 Delete type=0 #3
+2024/07/07-16:22:47.477 10d5b Level-0 table #6: started
+2024/07/07-16:22:47.517 10d5b Level-0 table #6: 3169407 bytes OK
+2024/07/07-16:22:47.532 10d5b Delete type=0 #4

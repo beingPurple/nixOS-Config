@@ -1,0 +1,33 @@
+2024-07-07T16:17:39.937Z 0: 
+
+----------------------------------------------
+2024-07-07T16:17:39.981Z 1: Discord starting: {"releaseChannel":"stable","version":"0.0.58"}, modulepath: /home/noelle/.config/discord/0.0.58/modules
+2024-07-07T16:17:40.004Z 2: ✅ webContents.created web1 ""
+2024-07-07T16:17:40.041Z 3: ✅ window.created win1 "discord"
+2024-07-07T16:17:41.467Z 4: ✅ webContents.did-finish-load web1
+2024-07-07T16:17:46.220Z 5: ✅ webContents.created web2 ""
+2024-07-07T16:17:46.279Z 6: ✅ window.created win2 "Discord"
+2024-07-07T16:17:48.188Z 7: ✅ webContents.did-finish-load web2
+2024-07-07T16:17:48.295Z 8: window.close win1
+2024-07-07T16:17:48.358Z 9: webContents.destroyed web1
+2024-07-07T16:17:48.395Z 10: window.closed win1
+2024-07-07T16:19:47.362Z 11: window.close win2
+2024-07-07T16:19:54.643Z 12: before-quit
+2024-07-07T16:19:54.652Z 13: window.close win2
+2024-07-07T16:19:54.737Z 14: webContents.destroyed web2
+2024-07-07T16:21:06.985Z 0: 
+
+----------------------------------------------
+2024-07-07T16:21:07.004Z 1: Discord starting: {"releaseChannel":"stable","version":"0.0.58"}, modulepath: /home/noelle/.config/discord/0.0.58/modules
+2024-07-07T16:21:07.013Z 2: ✅ webContents.created web1 ""
+2024-07-07T16:21:07.022Z 3: ✅ window.created win1 "discord"
+2024-07-07T16:21:07.158Z 4: ✅ webContents.did-finish-load web1
+2024-07-07T16:21:07.470Z 5: ✅ webContents.created web2 ""
+2024-07-07T16:21:07.483Z 6: ✅ window.created win2 "Discord"
+2024-07-07T16:21:09.339Z 7: ✅ webContents.did-finish-load web2
+2024-07-07T16:21:09.480Z 8: window.close win1
+2024-07-07T16:21:09.524Z 9: webContents.destroyed web1
+2024-07-07T16:21:09.533Z 10: window.closed win1
+2024-07-07T16:21:11.673Z 11: ✅ webContents.did-finish-load web2
+2024-07-07T16:29:38.945Z 12: before-quit
+2024-07-07T16:29:38.954Z 13: window.close win2

@@ -1,0 +1,4 @@
+2024/07/07-16:17:39.598 107cf Creating DB /home/noelle/.config/discord/Local Storage/leveldb since it was missing.
+2024/07/07-16:17:39.703 107cf Reusing MANIFEST /home/noelle/.config/discord/Local Storage/leveldb/MANIFEST-000001
+2024/07/07-16:19:54.785 107e6 Level-0 table #5: started
+2024/07/07-16:19:54.828 107e6 Level-0 table #5: 3168880 bytes OK

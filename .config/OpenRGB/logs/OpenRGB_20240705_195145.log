@@ -1,0 +1,32 @@
+    OpenRGB v0.9
+    Commit:  from 
+    Launched: 20240705_195145
+====================================================================================================
+
+1006  |Info:    Saving detector settings
+1007  |Info:    ------------------------------------------------------
+1007  |Info:    |               Start device detection               |
+1007  |Info:    ------------------------------------------------------
+1007  |Info:    Initializing HID interfaces: Success
+1007  |Info:    ------------------------------------------------------
+1007  |Info:    |             Detecting I2C interfaces               |
+1007  |Info:    ------------------------------------------------------
+1007  |Info:    ------------------------------------------------------
+1007  |Info:    |               Detecting I2C devices                |
+1007  |Info:    ------------------------------------------------------
+1011  |Info:    ------------------------------------------------------
+1011  |Info:    |               Detecting I2C PCI devices            |
+1011  |Info:    ------------------------------------------------------
+1011  |Info:    ------------------------------------------------------
+1011  |Info:    |               Detecting HID devices                |
+1011  |Info:    ------------------------------------------------------
+1011  |Info:    ------------------------------------------------------
+1011  |Info:    |            Detecting libusb HID devices            |
+1011  |Info:    ------------------------------------------------------
+1023  |Info:    ------------------------------------------------------
+1023  |Info:    |              Detecting other devices               |
+1023  |Info:    ------------------------------------------------------
+1024  |Info:    ------------------------------------------------------
+1024  |Info:    |                Detection completed                 |
+1024  |Info:    ------------------------------------------------------
+1024  |Dialog:  <h2>WARNING:</h2><p>The OpenRGB udev rules are not installed.</p><p>Most devices will not be available unless running OpenRGB as root.</p><p>If using AppImage, Flatpak, or self-compiled versions of OpenRGB you must install the udev rules manually</p><p>See <a href='https://openrgb.org/udev'>https://openrgb.org/udev</a> to install the udev rules manually</p>

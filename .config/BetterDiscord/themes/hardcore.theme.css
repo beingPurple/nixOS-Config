@@ -1,0 +1,345 @@
+/**
+ * @name hardcore
+ * @author Hawk#4872
+ * @version 1
+ * @description A highly customizable theme based off of the OperaGX browser.
+ * @source https://github.com/L-Ratio/OperaGXTheme
+ * @invite Xn7UUQUHbN
+ * @BDEditor OperaGX Theme
+*/
+
+/* Any custom CSS below here */
+
+//edit theme here: https://bdeditor.dev/theme/operagxtheme?tab=mainsettings
+
+@import url('https://l-ratio.github.io/OperaGXTheme/release/main.css');
+
+:root {
+  --background: transparent;
+  --background-behind-appmount: transparent;
+  --background-accent-color-1: 21,19,38,0.75;
+  --accent-color-1: 233,40,136;
+  --accent-color-2: 0,182,214;
+  --border-brightness: 1;
+  --dark-background-color: 21,19,38;
+  --darker-background-color: 8,5,14;
+  --wintitlebar-transparency: 0;
+  --header-transparency: 0;
+  --serverlist-transparency: 0.2;
+  --channels-transparency: 0.2;
+  --chat-transparency: 0.2;
+  --memberlist-transparency: 0.2;
+  --wintitlebar-background-blur: 0px;
+  --header-background-blur: 0px;
+  --serverlist-background-blur: 0px;
+  --channels-background-blur: 0px;
+  --chat-background-blur: 0px;
+  --memberlist-background-blur: 0px;
+  --customFont: Chakra Petch;
+  --codeBlocksCustomFont: Chakra Petch;
+  --fullwhite-font: 250, 253, 255;
+  --normal-font: 201, 203, 206;
+  --normal-hover-font: 238, 239, 240;
+  --muted-font: 114, 118, 125;
+  --link-text: 0, 176, 244;
+  --gx-red: 181,32,63 ;
+  --gx-red-2: 181,32,63 ;
+  --gx-yellow: 234, 234, 34  ;
+  --gx-yellow-2: 255, 255, 68 ;
+  --gx-green: 0, 212, 81 ;
+  --gx-green-2: 0, 255, 129 ;
+  --font-in-accent: 0, 0, 0  ;
+  --category-name-transform: unset;
+  --chatbox-transparency: 1;
+  --chatbox-focused-transparency: 1;
+  --other-highlighted-transparency: 1;
+  --other-transparency: 1;
+  --wintitlebar-transparency-color: var(--dark-background-color) ;
+  --wintb-focused-alpha: 1;
+  --wintb-focused-color: var(--darker-background-color);
+  --header-transparency-color: var(--dark-background-color);
+  --serverlist-transparency-color: var(--dark-background-color);
+  --channels-transparency-color: var(--dark-background-color);
+  --chat-transparency-color: var(--dark-background-color);
+  --memberlist-transparency-color: var(--dark-background-color);
+}
+
+/* Any custom CSS below here */
+
+
+@import url('https://l-ratio.github.io/OperaGXTheme/release/main.css');
+
+:root {
+  --background: transparent;
+  --background-behind-appmount: transparent;
+  --background-accent-color-1: 21,19,38,0.75;
+  --accent-color-1: 233,40,136;
+  --accent-color-2: 0,182,214;
+  --border-brightness: 1;
+  --dark-background-color: 21,19,28;
+  --darker-background-color: 18,16,24;
+  --wintitlebar-transparency: 0;
+  --header-transparency: 0;
+  --serverlist-transparency: 0;
+  --channels-transparency: 0;
+  --chat-transparency: 0;
+  --memberlist-transparency: 0;
+  --wintitlebar-background-blur: 0px;
+  --header-background-blur: 0px;
+  --serverlist-background-blur: 0px;
+  --channels-background-blur: 0px;
+  --chat-background-blur: 0px;
+  --memberlist-background-blur: 0px;
+  --customFont: Chakra Petch;
+  --codeBlocksCustomFont: Chakra Petch;
+  --fullwhite-font: 250, 253, 255;
+  --normal-font: 201, 203, 206;
+  --normal-hover-font: 238, 239, 240;
+  --muted-font: 114, 118, 125;
+  --link-text: 0, 176, 244;
+  --gx-red: 181,32,63 ;
+  --gx-red-2: 181,32,63 ;
+  --gx-yellow: 234, 234, 34  ;
+  --gx-yellow-2: 255, 255, 68 ;
+  --gx-green: 0, 212, 81 ;
+  --gx-green-2: 0, 255, 129 ;
+  --font-in-accent: 0, 0, 0  ;
+  --category-name-transform: unset;
+  --chatbox-transparency: 1;
+  --chatbox-focused-transparency: 1;
+  --other-highlighted-transparency: 1;
+  --other-transparency: 1;
+  --wintitlebar-transparency-color: var(--dark-background-color) ;
+  --wintb-focused-alpha: 1;
+  --wintb-focused-color: var(--darker-background-color);
+  --header-transparency-color: var(--dark-background-color);
+  --serverlist-transparency-color: var(--dark-background-color);
+  --channels-transparency-color: var(--dark-background-color);
+  --chat-transparency-color: var(--dark-background-color);
+  --memberlist-transparency-color: var(--dark-background-color);
+}
+
+/* Any custom CSS below here */
+
+
+@import url('https://l-ratio.github.io/OperaGXTheme/release/main.css');
+
+:root {
+  --background: transparent;
+  --background-behind-appmount: 0,0,0,0;
+  --background-accent-color-1: 4,4,4,0;
+  --accent-color-1: 233,40,136;
+  --accent-color-2: 0,182,214;
+  --border-brightness: 1;
+  --dark-background-color: 21,19,28;
+  --darker-background-color: 18,16,24;
+  --wintitlebar-transparency: 0;
+  --header-transparency: 0;
+  --serverlist-transparency: 0;
+  --channels-transparency: 0;
+  --chat-transparency: 0;
+  --memberlist-transparency: 0;
+  --wintitlebar-background-blur: 0px;
+  --header-background-blur: 0px;
+  --serverlist-background-blur: 0px;
+  --channels-background-blur: 0px;
+  --chat-background-blur: 0px;
+  --memberlist-background-blur: 0px;
+  --customFont: Chakra Petch;
+  --codeBlocksCustomFont: Chakra Petch;
+  --fullwhite-font: 250, 253, 255;
+  --normal-font: 201, 203, 206;
+  --normal-hover-font: 238, 239, 240;
+  --muted-font: 114, 118, 125;
+  --link-text: 0, 176, 244;
+  --gx-red: 181,32,63 ;
+  --gx-red-2: 181,32,63 ;
+  --gx-yellow: 234, 234, 34  ;
+  --gx-yellow-2: 255, 255, 68 ;
+  --gx-green: 0, 212, 81 ;
+  --gx-green-2: 0, 255, 129 ;
+  --font-in-accent: 0, 0, 0  ;
+  --category-name-transform: unset;
+  --chatbox-transparency: 1;
+  --chatbox-focused-transparency: 1;
+  --other-highlighted-transparency: 1;
+  --other-transparency: 1;
+  --wintitlebar-transparency-color: var(--dark-background-color) ;
+  --wintb-focused-alpha: 1;
+  --wintb-focused-color: var(--darker-background-color);
+  --header-transparency-color: var(--dark-background-color);
+  --serverlist-transparency-color: var(--dark-background-color);
+  --channels-transparency-color: var(--dark-background-color);
+  --chat-transparency-color: var(--dark-background-color);
+  --memberlist-transparency-color: var(--dark-background-color);
+}
+
+/* Any custom CSS below here */
+
+
+@import url('https://l-ratio.github.io/OperaGXTheme/release/main.css');
+
+:root {
+  --background: transparent;
+  --background-behind-appmount: 0,0,0,0;
+  --background-accent-color-1: 21,19,28,0.28;
+  --accent-color-1: 233,40,136;
+  --accent-color-2: 0,182,214;
+  --border-brightness: 1;
+  --dark-background-color: 21,19,28;
+  --darker-background-color: 18,16,24;
+  --wintitlebar-transparency: 0;
+  --header-transparency: 0;
+  --serverlist-transparency: 0;
+  --channels-transparency: 0;
+  --chat-transparency: 0;
+  --memberlist-transparency: 0;
+  --wintitlebar-background-blur: 0px;
+  --header-background-blur: 0px;
+  --serverlist-background-blur: 0px;
+  --channels-background-blur: 0px;
+  --chat-background-blur: 0px;
+  --memberlist-background-blur: 0px;
+  --customFont: Chakra Petch;
+  --codeBlocksCustomFont: Chakra Petch;
+  --fullwhite-font: 250, 253, 255;
+  --normal-font: 201, 203, 206;
+  --normal-hover-font: 238, 239, 240;
+  --muted-font: 114, 118, 125;
+  --link-text: 0, 176, 244;
+  --gx-red: 181,32,63 ;
+  --gx-red-2: 181,32,63 ;
+  --gx-yellow: 234, 234, 34  ;
+  --gx-yellow-2: 255, 255, 68 ;
+  --gx-green: 0, 212, 81 ;
+  --gx-green-2: 0, 255, 129 ;
+  --font-in-accent: 0, 0, 0  ;
+  --category-name-transform: unset;
+  --chatbox-transparency: 1;
+  --chatbox-focused-transparency: 1;
+  --other-highlighted-transparency: 1;
+  --other-transparency: 1;
+  --wintitlebar-transparency-color: var(--dark-background-color) ;
+  --wintb-focused-alpha: 1;
+  --wintb-focused-color: var(--darker-background-color);
+  --header-transparency-color: var(--dark-background-color);
+  --serverlist-transparency-color: var(--dark-background-color);
+  --channels-transparency-color: var(--dark-background-color);
+  --chat-transparency-color: var(--dark-background-color);
+  --memberlist-transparency-color: var(--dark-background-color);
+}
+
+/* Any custom CSS below here */
+
+
+@import url('https://l-ratio.github.io/OperaGXTheme/release/main.css');
+
+:root {
+  --background: transparent;
+  --background-behind-appmount: 0,0,0,0;
+  --background-accent-color-1: 21,19,28,0.5;
+  --accent-color-1: 233,40,136;
+  --accent-color-2: 0,182,214;
+  --border-brightness: 1;
+  --dark-background-color: 21,19,28;
+  --darker-background-color: 18,16,24;
+  --wintitlebar-transparency: 0;
+  --header-transparency: 0;
+  --serverlist-transparency: 0;
+  --channels-transparency: 0;
+  --chat-transparency: 0;
+  --memberlist-transparency: 0;
+  --wintitlebar-background-blur: 0px;
+  --header-background-blur: 0px;
+  --serverlist-background-blur: 0px;
+  --channels-background-blur: 0px;
+  --chat-background-blur: 0px;
+  --memberlist-background-blur: 0px;
+  --customFont: Chakra Petch;
+  --codeBlocksCustomFont: Chakra Petch;
+  --fullwhite-font: 250, 253, 255;
+  --normal-font: 201, 203, 206;
+  --normal-hover-font: 238, 239, 240;
+  --muted-font: 114, 118, 125;
+  --link-text: 0, 176, 244;
+  --gx-red: 181,32,63 ;
+  --gx-red-2: 181,32,63 ;
+  --gx-yellow: 234, 234, 34  ;
+  --gx-yellow-2: 255, 255, 68 ;
+  --gx-green: 0, 212, 81 ;
+  --gx-green-2: 0, 255, 129 ;
+  --font-in-accent: 0, 0, 0  ;
+  --category-name-transform: unset;
+  --chatbox-transparency: 1;
+  --chatbox-focused-transparency: 1;
+  --other-highlighted-transparency: 1;
+  --other-transparency: 1;
+  --wintitlebar-transparency-color: var(--dark-background-color) ;
+  --wintb-focused-alpha: 1;
+  --wintb-focused-color: var(--darker-background-color);
+  --header-transparency-color: var(--dark-background-color);
+  --serverlist-transparency-color: var(--dark-background-color);
+  --channels-transparency-color: var(--dark-background-color);
+  --chat-transparency-color: var(--dark-background-color);
+  --memberlist-transparency-color: var(--dark-background-color);
+}
+
+/* Any custom CSS below here */
+
+
+@import url('https://l-ratio.github.io/OperaGXTheme/release/main.css');
+
+:root {
+  --background: transparent;
+  --background-behind-appmount: 0,0,0,0;
+  --background-accent-color-1: 21,19,28,0.5;
+  --accent-color-1: 233,40,136;
+  --accent-color-2: 0,182,214;
+  --border-brightness: 1;
+  --dark-background-color: 21,19,28;
+  --darker-background-color: 15,13,20;
+  --wintitlebar-transparency: 0;
+  --header-transparency: 0;
+  --serverlist-transparency: 0;
+  --channels-transparency: 0;
+  --chat-transparency: 0;
+  --memberlist-transparency: 0;
+  --wintitlebar-background-blur: 0px;
+  --header-background-blur: 0px;
+  --serverlist-background-blur: 0px;
+  --channels-background-blur: 0px;
+  --chat-background-blur: 0px;
+  --memberlist-background-blur: 0px;
+  --customFont: Chakra Petch;
+  --codeBlocksCustomFont: Chakra Petch;
+  --fullwhite-font: 250, 253, 255;
+  --normal-font: 201, 203, 206;
+  --normal-hover-font: 238, 239, 240;
+  --muted-font: 114, 118, 125;
+  --link-text: 0, 176, 244;
+  --gx-red: 181,32,63 ;
+  --gx-red-2: 181,32,63 ;
+  --gx-yellow: 234, 234, 34  ;
+  --gx-yellow-2: 255, 255, 68 ;
+  --gx-green: 0, 212, 81 ;
+  --gx-green-2: 0, 255, 129 ;
+  --font-in-accent: 0, 0, 0  ;
+  --category-name-transform: unset;
+  --chatbox-transparency: 1;
+  --chatbox-focused-transparency: 1;
+  --other-highlighted-transparency: 1;
+  --other-transparency: 1;
+  --wintitlebar-transparency-color: var(--dark-background-color) ;
+  --wintb-focused-alpha: 1;
+  --wintb-focused-color: var(--darker-background-color);
+  --header-transparency-color: var(--dark-background-color);
+  --serverlist-transparency-color: var(--dark-background-color);
+  --channels-transparency-color: var(--dark-background-color);
+  --chat-transparency-color: var(--dark-background-color);
+  --memberlist-transparency-color: var(--dark-background-color);
+}
+
+/* Any custom CSS below here */
+
+
+
